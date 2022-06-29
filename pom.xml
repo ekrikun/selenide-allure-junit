@@ -29,6 +29,12 @@
       <version>${allure.version}</version>
     </dependency>
     <dependency>
+      <groupId>com.github.stefanbirkner</groupId>
+      <artifactId>system-rules</artifactId>
+      <version>1.19.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>io.qameta.allure</groupId>
       <artifactId>allure-selenide</artifactId>
       <version>${allure.version}</version>
@@ -70,6 +76,12 @@
       <version>4.0.1</version>
       <scope>compile</scope>
     </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter</artifactId>
+          <version>RELEASE</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
 
   <dependencyManagement>
